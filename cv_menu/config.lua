@@ -14,10 +14,10 @@
 
       buttons = {
         { text = "Animations", menu = "anim" },
+	{ text = "Carte d'identité", callback = carte },
         { text = "GPS", menu = "gps" },
         { text = "Inventaire", callback = inventoryMenu, close = true },
         { text = "Telephone", callback = phoneMenu, close = true },
-        { text = "Carte d'identité", callback = carte },
         { text = "Sauvegarder ma position", callback = Saver },
         { text = "Fermer le menu", close = true },
       },
