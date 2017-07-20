@@ -9,7 +9,7 @@
 
 -- Configuration BDD
 require "resources/essentialmode/lib/MySQL"
-MySQL:open(database.host, database.name, database.username, database.password)
+MySQL:open("127.0.0.1", "gta5_gamemode_essential", "root", "1202")
 
 --====================================================================================
 --  Teste si un joueurs a donnée ces infomation identitaire
