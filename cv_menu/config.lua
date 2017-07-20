@@ -160,7 +160,7 @@
         { text = "Concessionnaire", callback = concepoint },
         { text = "Commissariat", callback = comico },
         { text = "Hopital", callback = hopi },
-        { text = "Suprimer le point", callback = supr },
+        { text = "Supprimer le point", callback = supr },
 		{ text = "Retour", back = true },
       },
 
