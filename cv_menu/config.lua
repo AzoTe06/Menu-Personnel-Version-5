@@ -33,7 +33,7 @@
 
       buttons = {
 		{ text = "Animations Humeur", menu = "humeur" },
-		{ text = "Animations Salu", menu = "salu" },
+		{ text = "Animations Salue", menu = "salu" },
 		{ text = "Animations Sportives", menu = "sportives" },
 		{ text = "Animations Festives", menu = "festives" },
 		{ text = "Prendre une Pose", menu = "pose" },
