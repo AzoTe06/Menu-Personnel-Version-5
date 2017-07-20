@@ -154,9 +154,7 @@ end
 function inventoryItemMenu(itemId)
     ClearMenu()
     options.menu_subtitle = "Details "
-    Menu.addButton("Utiliser", "use", itemId)
-    Menu.addButton("Ouvrir", "lire", itemId)
-    Menu.addButton("Donner", "give", itemId)	
+    Menu.addButton("Utiliser", "use", itemId)	
     Menu.addButton("Supprimer", "inventoryDelete", {itemId , 1})    
 end
 
